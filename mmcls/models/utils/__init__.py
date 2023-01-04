@@ -9,6 +9,8 @@ from .inverted_residual import InvertedResidual
 from .layer_scale import LayerScale
 from .make_divisible import make_divisible
 from .position_encoding import ConditionalPositionEncoding
+from .norm import GRN, LayerNorm2d, build_norm_layer
+
 from .se_layer import SELayer
 
 __all__ = [
@@ -16,5 +18,6 @@ __all__ = [
     'to_ntuple', 'to_2tuple', 'to_3tuple', 'to_4tuple', 'PatchEmbed',
     'PatchMerging', 'HybridEmbed', 'Augments', 'ShiftWindowMSA', 'is_tracing',
     'MultiheadAttention', 'ConditionalPositionEncoding', 'resize_pos_embed',
-    'resize_relative_position_bias_table', 'WindowMSAV2', 'LayerScale'
+    'resize_relative_position_bias_table', 'WindowMSAV2', 'LayerScale', 'GRN', 'LayerNorm2d',
+    'build_norm_layer'
 ]

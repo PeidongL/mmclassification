@@ -32,3 +32,4 @@ Import:
   - configs/mvit/metafile.yml
   - configs/efficientformer/metafile.yml
   - configs/hornet/metafile.yml
+  - configs/convnext_v2/metafile.yml
